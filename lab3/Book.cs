@@ -24,5 +24,12 @@ namespace lab3
             this.NameBook = NameBook;
             this.Genre = Genre;
         }
+
+        public virtual void Info()
+        {
+            Console.WriteLine("Информация о книге: ");
+            Console.WriteLine("   Код книги: {0}\n    Автор: {2}\n    Название книги: {3} \n    Жанр: {4}",
+                ID_Book, Author, NameBook, Genre);
+        }
     }
 }

@@ -29,5 +29,11 @@ namespace lab3
             this.Gender = Gender;
             this.Phone = Phone;
         }
+        public virtual void Info()
+        {
+            Console.WriteLine("Информация о читателе: ");
+            Console.WriteLine("   Код Читателя: {0}\n    Фамилия: {1}\n    Имя: {2} \n    Отчество: {3}\n    Пол: {4}\n    Телефон: {5} ",
+                ID_Reader, Surname, Name, Patronymic, Gender, Phone);
+        }
     }
 }
