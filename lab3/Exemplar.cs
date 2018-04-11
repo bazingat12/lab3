@@ -27,7 +27,7 @@ namespace lab3
         {
             Book1.Info();
             Console.WriteLine("Информация о экземпляре: ");
-            Console.WriteLine("Код 'экземпляра: {0}\n    Дата печати:    {1}\n    Издательство: {2}",
+            Console.WriteLine("    Код экземпляра: {0}\n    Дата печати:    {1}\n    Издательство: {2}",
                 ID_Exemplar, Data, Publisher);
         }
     }

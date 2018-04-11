@@ -32,7 +32,7 @@ namespace lab3
         public virtual void Info()
         {
             Console.WriteLine("Информация о читателе: ");
-            Console.WriteLine("   Код Читателя: {0}\n    Фамилия: {1}\n    Имя: {2} \n    Отчество: {3}\n    Пол: {4}\n    Телефон: {5} ",
+            Console.WriteLine("   Код Читателя: {0}\n    Фамилия: {1}\n    Имя: {2} \n    Отчество: {3}\n    Пол: {4}\n    Телефон: {5}\n ",
                 ID_Reader, Surname, Name, Patronymic, Gender, Phone);
         }
     }

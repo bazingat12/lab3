@@ -36,9 +36,10 @@ namespace lab3
         public virtual void Info()
         {
             Console.WriteLine("Сотрудник: ");
-            Console.WriteLine("    Код сотрудника: {0}\n    Должность: {1}\n    Фамилия: {2}\n    Имя: {3}\n    Отчество: "
-                + "{4}\n    ИНН: {5}\n    Стаж работы: {6}\n",
-                ID_Employee, EmployeePosition, Surname, Name, Patronymic, INN, Experience);
+            Console.WriteLine("    Код сотрудника: {0}\n       Фамилия: {1}\n    Имя: {2}\n    Отчество: "
+                + "{3}\n    ИНН: {4}\n    Стаж работы: {5}",
+                ID_Employee, Surname, Name, Patronymic, INN, Experience);
+               EmployeePosition.Info();
         }
     }
     

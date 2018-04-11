@@ -16,7 +16,6 @@ namespace lab3
             Reader reader = new Reader(1, "Семенов", "Игорь", "Евгеньевич", "муж.", 79835);
             Employee employee = new Employee(1, position, "Петрова", "Людмила", "Сергеевна", 345678892, 4);
             Delivery delivery = new Delivery(1, DateTime.Now, employee, reader, exemplar);
-
             delivery.Info();
             Console.ReadLine();
         }

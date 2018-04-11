@@ -28,7 +28,7 @@ namespace lab3
         public virtual void Info()
         {
             Console.WriteLine("Информация о книге: ");
-            Console.WriteLine("   Код книги: {0}\n    Автор: {2}\n    Название книги: {3} \n    Жанр: {4}",
+            Console.WriteLine("   Код книги: {0}\n    Автор: {1}\n    Название книги: {2} \n    Жанр: {3}\n",
                 ID_Book, Author, NameBook, Genre);
         }
     }

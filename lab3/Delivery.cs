@@ -29,7 +29,7 @@ namespace lab3
 
         public virtual void Info()
         {
-            Console.WriteLine("Код выдачи: {0}, Дата:", null);
+            Console.WriteLine("Код выдачи: {0} , Дата:\n", ID_Delivery, Data);
             EmployeeDelivery.Info();
             Reader1.Info();
             Exemplar1.Info();

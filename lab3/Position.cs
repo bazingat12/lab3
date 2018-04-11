@@ -17,5 +17,12 @@ namespace lab3
             this.ID_Position = ID_Position;
             this.PositionName = PositionName;
         }
+
+        public virtual void Info()
+        {
+           // Console.WriteLine("Информация о должности: ");
+            Console.WriteLine("    Должность: {0}\n ",
+                PositionName);
+        }
     }
 }
